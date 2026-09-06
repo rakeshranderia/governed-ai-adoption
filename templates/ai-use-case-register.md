@@ -1,0 +1,3 @@
+# AI Use-Case Register
+| ID | Use Case | Team | Owner | Platform | Data | Risk Tier | Value Measure | Status | Review Date |
+|---|---|---|---|---|---|---|---|---|---|

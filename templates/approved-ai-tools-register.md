@@ -1,0 +1,3 @@
+# Approved AI Tools Register
+| Tool | Owner | Approved Use | Data Restrictions | Security/Privacy Review | DLP | Training Required | Status | Review |
+|---|---|---|---|---|---|---|---|---|

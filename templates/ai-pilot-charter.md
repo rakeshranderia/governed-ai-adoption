@@ -1,0 +1,16 @@
+# AI Pilot Charter
+- Executive sponsor:
+- Program owner:
+- Platform:
+- Pilot size:
+- Start date:
+- Review date:
+- Objectives:
+- In scope:
+- Out of scope:
+- Approved data classes:
+- Key risks:
+- Training:
+- Success measures:
+- Incident path:
+- Scale/stop criteria:
