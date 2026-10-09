@@ -1,5 +1,8 @@
 # Governed AI Adoption Framework
 
+> **Status:** Maintained tool  
+> **Last reviewed:** October 2026
+
 A practical framework and anonymised case study for moving enterprise AI from experimentation to controlled, measurable adoption.
 
 > **Governance → Pilot → Adoption → Measurement → Scale**
