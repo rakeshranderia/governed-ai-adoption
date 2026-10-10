@@ -1,46 +1,66 @@
 # Governed AI Adoption Framework
 
-> **Status:** Maintained tool  
-> **Last reviewed:** October 2026
-
 A practical framework and anonymised case study for moving enterprise AI from experimentation to controlled, measurable adoption.
 
-> **Governance → Pilot → Adoption → Measurement → Scale**
+> **Status:** Completed case study / reference material  
+> **Last reviewed:** October 2026
 
-The framework is based on a real-world governed AI pilot involving approximately **40 users in an organisation of roughly 120 people**. The public case study is intentionally anonymised and focuses on the operating model, controls, adoption approach and evidence rather than organisation-specific information.
+---
 
-## Why this exists
+**Governance → Pilot → Adoption → Measurement → Scale**
 
-AI adoption programs often fail in one of two directions:
+## Context
 
-- **Too little governance:** users move faster than privacy, security, data and risk controls.
-- **Too much governance:** the organisation creates an approval process so heavy that useful adoption stalls.
+A professional-services organisation wanted to explore generative AI in a practical way while maintaining appropriate controls around privacy, information handling, accuracy and responsible use.
 
-The objective is a middle path: create enough confidence and control for useful AI adoption to move faster.
+## Challenge
 
-## Core lifecycle
+Interest in AI was growing quickly across the business, but adoption risked moving faster than governance.
 
-| Stage | Objective |
-|---|---|
-| Governance | Establish approved platforms, acceptable use, data handling, ownership and risk guardrails. |
-| Pilot | Test real business use cases with a bounded user cohort. |
-| Adoption | Train users, identify repeatable patterns and support safe experimentation. |
-| Measurement | Measure usage, value, quality, incidents and control effectiveness. |
-| Scale | Expand successful use cases while strengthening controls in proportion to risk. |
+The objective was to enable useful experimentation without creating unnecessary restrictions or allowing unmanaged use of public AI tools.
 
-## Case-study snapshot
+The challenge was therefore not simply whether AI should be allowed, but:
 
-- Organisation size: approximately 120 people
-- Initial governed pilot: approximately 40 users
-- Use cases: tender/proposal support, data analysis, coding assistance/QA, drafting and summarisation
-- Governance: acceptable use, privacy, DLP/data handling, Shadow AI controls, training, human review, bias/hallucination awareness, data classification
-- Measurement: usage telemetry, Microsoft 365 reporting, user feedback, use-case value, adoption patterns, incidents/exceptions
+**Under what conditions should a particular AI use case proceed?**
 
-## Design philosophy
+## Approach
 
-**Business Problem → Use Case → Risk → Guardrails → Pilot → Measure → Scale**
+A staged adoption model was established covering governance, controlled pilot activity, user education, measurement and broader rollout.
 
-## Author
+The work included:
 
-**Rakesh Randeria**  
-Technology Executive | Strategy | Transformation | Cybersecurity | AI & Digital Enablement
+- acceptable-use guidance;
+- privacy and data-handling controls;
+- platform assessment;
+- data-loss prevention considerations;
+- user training;
+- Shadow AI controls;
+- data classification;
+- guidance on hallucination, bias and verification;
+- human review and accountability.
+
+Pilot use cases focused on common knowledge-work activities such as:
+
+- drafting;
+- analysis;
+- summarisation;
+- technical assistance;
+- quality checking.
+
+Adoption was reviewed using available platform telemetry and user feedback rather than relying purely on anecdotal benefit claims.
+
+## Governed Adoption Lifecycle
+
+```mermaid
+flowchart LR
+    A[Business Need or Opportunity] --> B[Use Case Triage]
+    B --> C[Risk, Data and Privacy Assessment]
+    C --> D[Platform and Control Selection]
+    D --> E[Controlled Pilot]
+    E --> F[Training and Acceptable Use]
+    F --> G[Usage, Feedback and Value Measurement]
+    G --> H{Suitable to Scale?}
+    H -->|Yes| I[Broader Governed Adoption]
+    H -->|Not Yet| J[Refine Controls or Use Case]
+    J --> E
+    I --> K[Ongoing Monitoring and Governance]
